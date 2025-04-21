@@ -4,10 +4,10 @@ import './App.css'; // Importing CSS styles
 
 
 function App() { // to manage the list of tours
-const [tours, setTours] = useState([]); // Function to removes a tour from the list
+const [tours, setTours] = useState([]); 
 
-const removeTour = (id) => { 
-const updatedTours = tours.filter((tour) => tour.id !== id); //
+const removeTour = (id) => {  
+const updatedTours = tours.filter((tour) => tour.id !== id); 
 
   }; 
 
