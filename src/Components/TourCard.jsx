@@ -15,7 +15,9 @@ const TourCard = ({ id, image, info, name, price, onRemove }) => {
             {readMore ? 'Show Less' : 'Read More'}
           </button>
         </p>
-        <button onClick={() => onRemove(id)} className="remove-tour-btn">Remove</button> {/* Remove tour button */}
+        <button onClick={() => onRemove(id)} className="remove-tour-btn"> {/* Remove tour button */}
+          Not Interested
+        </button>
       </div>
     </article>
   );

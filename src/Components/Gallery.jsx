@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';// Importing React and hooks for managing state and side effects
 import TourCard from './TourCard.jsx'; // Importing the TourCard component to display individual tours
-    
+
 const Gallery = ({ tours, setTours, onRemove }) => { // Gallery component to display a list of tours
 const [loading, setLoading] = useState(true); // State to manage loading status
 const [error, setError] = useState(null); // State to manage error status
